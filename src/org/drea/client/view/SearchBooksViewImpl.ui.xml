@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HorizontalPanel>
+			<g:Label text="Title"/>
+			<g:TextBox ui:field="bookTitle"></g:TextBox>
+			<g:Label text="Author"/>
+			<g:TextBox ui:field="bookAuthor"></g:TextBox>
+			<g:Label text="ISBN"/>
+			<g:TextBox ui:field="isbn"></g:TextBox>
+		</g:HorizontalPanel>
+		<g:Button styleName="{style.important}" ui:field="searchButton" />
+	</g:HTMLPanel>
+</ui:UiBinder> 

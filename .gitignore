@@ -1,0 +1,8 @@
+.classpath
+.gwt/**
+.project
+.settings/**
+war/bookshelf/**
+war/WEB_INF/classes/**
+war/WEB-INF/appengine-generated/**
+war/WEB-INF/deploy/**
